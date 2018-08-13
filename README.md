@@ -48,7 +48,9 @@ I would like to see an account statement printed that shows the date, amount and
 ```
  2. Setting up the program
 
- Installing rspec
+ Setting up rspec and  gemfiles.
+
+ 
 
 
 
