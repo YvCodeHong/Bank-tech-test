@@ -30,6 +30,24 @@ date || credit || debit || balance
 
 ## Approach to solving the problem.
 
+My approach to solving this problem is to first write the user stories. In writing a user story it outlines what a program is expected to do, from the perspective of somebody using the program. Here is a outline:
+
+```
+As a user,
+So that it saves me time carry a whole load of money,
+I would like to deposit the many in my bank account and a statement should display the amount.
+
+As a user,
+So that I can carry some cash whenever I want,
+I would like to withdraw some money from my bank account and that should be displayed.
+
+As a user,
+So that I can how much I've spent and where I've spent it,
+I would like to see an account statement printed that shows the date, amount and balance.
+
+```
+
+2. Setting up the system 
 
 
 ## Learning outcomes
