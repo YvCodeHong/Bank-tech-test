@@ -7,6 +7,13 @@ describe Account do
    account = Account.new
    expect(account.balance).to eq 0
  end
+
+ it 'should show name on account' do
+   account = Account.new
+   expect(account.name).to eq "account name"
+ end
+
+
 end
 
 # As a user,
