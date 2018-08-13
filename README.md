@@ -34,6 +34,10 @@ My approach to solving this problem is to first write the user stories. In writi
 
 ```
 As a user,
+So that I can put my money in a safe place,
+I'd like to set up a bank account 
+
+As a user,
 So that it saves me time carrying a whole load of money,
 I would like to deposit the money in my bank account and a statement should display the amount.
 
@@ -48,9 +52,11 @@ I would like to see an account statement printed that shows the date, amount and
 ```
  2. Setting up the program
 
- Setting up rspec and  gemfiles.
+ Install rspec and  gemfiles.
 
- 
+ 3. Diagramming
+
+
 
 
 

@@ -1,7 +1,12 @@
 require './lib/account.rb'
 
 describe Account do
+  let(:account) { Account.new }
 
+  it 'should have a balance' do
+   account = Account.new
+   expect(account.balance).to eq 0
+ end
 end
 
 # As a user,
