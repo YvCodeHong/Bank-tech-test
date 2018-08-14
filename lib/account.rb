@@ -12,9 +12,11 @@ attr_reader :balance, :transactiona
     @balance += amount
   end
 
+  def withdraw(amount_to_withdraw)
+    @balance -= amount_to_withdraw
+  end
+
   def display_balance
     @balance
   end
-
-
 end
