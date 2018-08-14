@@ -16,5 +16,7 @@
       account.withdraw(20)
       expect(account.display_balance).to eq -20
      end
+
+     # it 'should raise an error sign if the account '
     end
   end

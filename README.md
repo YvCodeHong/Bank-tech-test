@@ -51,13 +51,8 @@ I would like to see an account statement printed that shows the date, amount and
 
 ```
 
+After creating a user story, I started by diagramming how I would create a bank acccount. Initially, the idea was the write the code in one class, but as we are looking for OO design, we had to find solution to extracting the class.
 
-
-
-
-
-
-## Learning outcomes
 
 ## Author
 
