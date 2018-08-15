@@ -9,14 +9,16 @@
         account.deposit(100)
         expect(account.display_balance).to eq 100
       end
-    end
+  end
 
   describe '#withdraw' do
-    it 'allows the user to withdraw money from their account' do
-      account.withdraw(20)
-      expect(account.display_balance).to eq -20
-     end
-
-     # it 'should raise an error sign if the account '
+    it 'deducts the amount from the account' do
+      account.deposit(100)
+      expect{ account.withdraw 20}.to change{ account.balance }.by -20
     end
-  end
+
+    # it 'should record the transaction' do
+    #   expect(account.withdraw.transaction.display_balance).to eq
+    # end
+end
+end

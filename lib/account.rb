@@ -1,7 +1,6 @@
-
 class Account
 
-attr_reader :balance, :transactiona
+attr_reader :balance, :transaction
 
   def initialize
     @balance = 0

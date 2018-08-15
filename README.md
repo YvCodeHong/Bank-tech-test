@@ -46,12 +46,16 @@ So that when I have limited cash,
 I would like to withdraw money from my bank account and that should be displayed.
 
 As a user,
+So that I don't  withdraw money that I  don't have, 
+I would like to see a warning notice notifying that I have enter an amount over my balance.
+
+As a user,
 So that I know how much I've spent and where I've spent it,
 I would like to see an account statement printed that shows the date, amount and balance.
 
 ```
 
-After creating a user story, I started by diagramming how I would create a bank acccount. Initially, the idea was the write the code in one class, but as we are looking for OO design, we had to find solution to extracting the class.
+After creating a user story, I started by diagramming how I would create a bank acccount. Initially, the idea was the write the code in one class, but as we are looking for OO design, we had to find a solution to extracting the class.
 
 
 ## Author
