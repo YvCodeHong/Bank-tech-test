@@ -4,7 +4,6 @@ attr_reader :balance, :transaction, :statement
 
   def initialize
     @balance = 0
-    @transaction = []
     @statement = statement
   end
 
@@ -18,10 +17,5 @@ attr_reader :balance, :transaction, :statement
 
   def display_balance
     @balance
-  end
-
-  def print_statement
-
-
   end
 end
