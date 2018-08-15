@@ -17,8 +17,6 @@
       expect{ account.withdraw 20}.to change{ account.balance }.by -20
     end
 
-    # it 'should record the transaction' do
-    #   expect(account.withdraw.transaction.display_balance).to eq
-    # end
+  describe print
 end
 end
