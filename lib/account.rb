@@ -1,10 +1,11 @@
 class Account
 
-attr_reader :balance, :transaction
+attr_reader :balance, :transaction, :statement
 
   def initialize
     @balance = 0
     @transaction = []
+    @statement = statement
   end
 
   def deposit(amount)
@@ -17,5 +18,10 @@ attr_reader :balance, :transaction
 
   def display_balance
     @balance
+  end
+
+  def print_statement
+
+
   end
 end

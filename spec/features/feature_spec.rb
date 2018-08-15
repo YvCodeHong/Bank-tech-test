@@ -17,22 +17,29 @@ require './lib/account.rb'
 # I would like to see an account statement printed that shows the date, amount and balance.
 #
 
-describe Account do
-  it 'allows the user to set up a new bank account that has a balance of 0' do
-    account = Account.new
-    expect(account.balance).to eq 0
-  end
-
-  it 'should allow user to deposit the money in their account' do
-    account = Account.new
-    account.deposit(100)
-    expect(account.balance).to eq 100
-  end
-
-  it 'allows users to withdraw money from their account' do
-    account = Account.new
-    account.deposit(100)
-    account.withdraw(20)
-    expect(account.balance).to eq 80
-  end
-end
+# describe Account do
+#   it 'allows the user to set up a new bank account that has a balance of 0' do
+#     account = Account.new
+#     expect(account.balance).to eq 0
+#   end
+#
+#   it 'should allow user to deposit the money in their account' do
+#     account = Account.new
+#     account.deposit(100)
+#     expect(account.balance).to eq 100
+#   end
+#
+#   it 'allows users to withdraw money from their account' do
+#     account = Account.new
+#     account.deposit(100)
+#     account.withdraw(20)
+#     expect(account.balance).to eq 80
+#   end
+#
+#   it 'can allow user to print statement' do
+#     account = Account.new
+#     account.deposit(100)
+#     account.withdraw(20)
+#     expect(account.show)
+#   end
+# end
