@@ -4,9 +4,10 @@ class Account
 
 attr_reader :balance, :transactionlog
 
-  def initialize
+  def initialize(printer = Printer.new)
     @balance = 0
     @transactionlog = []
+    @printer = printer
   end
 
   def deposit(amount)
