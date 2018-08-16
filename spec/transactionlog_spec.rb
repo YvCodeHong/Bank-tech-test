@@ -13,11 +13,11 @@ describe Transactionlog do
  end
 end
 
- describe '#add' do
-   it 'adds transaction to the log' do
-     transaction = { type: "deposit", date: 14/01/2012, amount: 100}
-     subject.add(transaction)
-     expect(subject.transaction).to(eq([transaction]))
- end
-end
+#  describe '#add' do
+#    it 'adds transaction to the log' do
+#      transaction = { type: "deposit", date: 14/01/2012, amount: 100}
+#      subject.add(transaction)
+#      expect(subject.transaction).to(eq([transaction]))
+#  # end
+# end
 end

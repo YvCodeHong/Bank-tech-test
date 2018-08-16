@@ -1,30 +1,24 @@
 class Account
 
-attr_reader :balance, :statement
+attr_reader :balance, :transaction, :statement
 
-  def initialize(transactionlog = Transactionlog.new())
+  def initialize
     @balance = 0
-    @date = date
-    @debit = 0
-    @credit = 0
-    @transaction = []
+    @transactionlog = []
   end
 
   def deposit(amount)
     @balance += amount
-    @credit = amount;
   end
 
-  def withdraw(amount)
-    @balance -= amount
-    @debitgit  = amount
+  def withdraw(amount_to_withdraw)
+    @balance -= amount_to_withdraw
   end
 
   def display_balance
     @balance
   end
 
-  def record
-    @transaction.push(transactionlog(date, @debit, @credit, @balance))
+  def 
   end
 end

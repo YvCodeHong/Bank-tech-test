@@ -1,11 +1,11 @@
 class Transactionlog
+attr_reader :transaction
 
-attr_accessor :date, :debit, :credit, :balance
-
-def initialize(date, debit, credit, balance)
-  @date = data
-  @debit = debit
-  @credit = credit
-  @balance = balance
+def initialize
+  @transaction = []
 end
-end 
+
+def add(amount)
+  @transaction.push(amount)
+end
+end
