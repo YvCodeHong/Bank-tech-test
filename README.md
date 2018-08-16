@@ -47,10 +47,10 @@ I would like to withdraw money from my bank account and that should be displayed
 
 As a user,
 So that I don't  withdraw money that I  don't have,
-I would like to see a warning notice notifying that I have enter an amount over my balance.
+I would like to see a warning notice notifying that I have entered an amount over my balance.
 
 As a user,
-So that I keep a track of what I have spent and what I have earned, 
+So that I keep a track of what I have spent and what I have earned,
 I would like to see an account statement printed that shows the date, amount and balance.
 
 ```
