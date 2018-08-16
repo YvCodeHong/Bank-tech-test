@@ -18,7 +18,4 @@ attr_reader :balance, :transaction, :statement
   def display_balance
     @balance
   end
-
-  def 
-  end
 end
