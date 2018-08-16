@@ -16,5 +16,5 @@
       account.deposit(100)
       expect{ account.withdraw 20}.to change{ account.balance }.by -20
     end
-end
+  end
 end
