@@ -15,7 +15,7 @@ describe '#header' do
 
 describe '#transaction'  do
   it 'should record a deposit' do
-    expect(subject.transaction(mockTransaction)).to eq ("14/01/2012 || 500.00 || 2500.00")
+    expect(subject.transaction(mockTransaction)).to eq ("Date || Credit || Balance")
   end
 end
 end

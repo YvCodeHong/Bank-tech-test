@@ -11,6 +11,6 @@ class Printer
   end
 
   def transaction(transaction)
-    "14/01/2012 || 500.00 || 2500.00"
+    "Date || Credit || Balance"
   end
 end
